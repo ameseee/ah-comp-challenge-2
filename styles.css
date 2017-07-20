@@ -1,3 +1,6 @@
+* {
+  line-height: 1;
+}
 /*NAV BAR*/
 .nav-bar {
   height: 150px;
@@ -52,10 +55,62 @@ li {
 .card {
   border: 1px solid black;
   display: inline-block;
-  padding: 10px;
-  width: 200px;
+  width: 225px;
+  height: 400px;
+  margin-top: 20px;
 }
 
 .top-of-card {
   background-color: red;
+  height: 125px;
+}
+
+.bottom-of-card {
+  padding: 10px;
+}
+
+h4, p, a {
+  font-family: "Open Sans", sans-serif;
+}
+
+.views, .quote, .attachment  {
+  text-transform: uppercase;
+}
+
+.views-num, .attachment-num {
+  font-size: 30px;
+  line-height: 1;
+  margin: 0;
+}
+
+.views, .attachment {
+  margin-bottom: 6px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 125%;
+  font-family: "Cardo";
+}
+
+h4 {
+  margin: 0;
+  font-size: 80%;
+  margin-top: 4px;
+  letter-spacing: 0.6px;
+}
+
+.link-div {
+  height: 50px;
+  width: 95%;
+  border: 1px solid black;
+  margin: 15px 0 15px 0;
+}
+
+a {
+  font-family: "Open Sans";
+  font-size: 80%;
+}
+.quote-text {
+  margin: 6px 0 20px 0;
 }
