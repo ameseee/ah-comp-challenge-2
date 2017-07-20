@@ -25,20 +25,42 @@
   align-items: center;
 }
 
+.nav-icon {
+  height: 36px;
+  width: auto;
+  display: inline-block;
+}
+
 h1 {
   font-family: "Cardo";
   font-weight: 400;
   padding-right: 40px;
 }
 
+.capitol-icon {
+  height: 68px;
+  width: auto;
+  margin-left: 0;
+}
+
 li {
   display: inline-block;
   border: 1px solid black;
+  width: 140px;
+  text-transform: uppercase;
 }
 
-.nav-icon {
-  width: 120px;
-  margin-right: 20px;
+.nav-icon-text {
+  display: inline-block;
+  font-size: 85%;
+}
+
+#walk-talk {
+
+}
+
+#bartlet-america {
+
 }
 
 /*BOTTOM CONTAINER*/
@@ -63,6 +85,11 @@ li {
 .top-of-card {
   background-color: red;
   height: 125px;
+}
+
+.magnifying-glass-icon {
+  height: 42px;
+  width: auto;
 }
 
 .bottom-of-card {
