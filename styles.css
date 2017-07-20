@@ -1,0 +1,61 @@
+/*NAV BAR*/
+.nav-bar {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+}
+
+.top-nav {
+  height: 75px;
+  border: 1px solid red;
+  width: 100%;
+}
+
+.bottom-nav {
+  height: 75px;
+  border: 1px solid pink;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Cardo";
+  font-weight: 400;
+  padding-right: 40px;
+}
+
+li {
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.nav-icon {
+  width: 120px;
+  margin-right: 20px;
+}
+
+/*BOTTOM CONTAINER*/
+.bottom-container {
+  background-color: grey;
+}
+
+.card-container {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/*CARD*/
+.card {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 10px;
+  width: 200px;
+}
+
+.top-of-card {
+  background-color: red;
+}
