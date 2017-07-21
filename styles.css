@@ -1,5 +1,6 @@
 * {
   line-height: 1;
+  box-sizing: border-box;
 }
 /*NAV BAR*/
 .nav-bar {
@@ -91,7 +92,7 @@ h1 {
 li {
   display: inline-block;
   /*border: 1px solid #fff;*/
-  width: 160px;
+  width: 170px;
   text-transform: uppercase;
   position: relative;
   height: 40px;
@@ -102,12 +103,13 @@ li {
   top: 3px;
   left: 3px;
 }
+
 .nav-icon-text {
   position: absolute;
   top: 3px;
   left: 45px;
   display: inline-block;
-  font-size: 80%;
+  /*font-size: 0%;*/
   color: #E7E8FA;
 }
 
@@ -133,7 +135,6 @@ li {
   border: 1px solid black;
   display: inline-block;
   width: 23%;
-  height: 400px;
   margin-top: 20px;
 }
 
@@ -227,8 +228,13 @@ li {
 }
 
 .bottom-of-card {
-  padding: 10px;
+  padding: 15px;
   background-color: #E7E8EB;
+}
+
+.job {
+  font-size: 67%;
+  color: #52627c;
 }
 
 h4,
@@ -239,6 +245,7 @@ a {
 
 .quote {
   text-transform: uppercase;
+  font-size: 70%;
 }
 
 .rating-num,
@@ -251,10 +258,12 @@ a {
 .cookies {
   text-transform: uppercase;
   margin-bottom: 6px;
+  font-size: 70%;
 }
 
 .cookies-num {
   color: #385275;
+  padding-bottom: 10px;
 }
 
 .rating {
@@ -262,6 +271,7 @@ a {
   margin-bottom: 6px;
   text-transform: uppercase;
   color: #fff;
+  font-size: 70%;
 }
 
 .rating-num {
@@ -282,15 +292,19 @@ h4 {
 }
 
 .link-div {
-  height: 50px;
-  width: 95%;
-  border: 1px solid black;
+  height: 54px;
+  width: 98.5%;
+  background-color: #d1d1d1;
   margin: 15px 0 15px 0;
+  padding: 6px;
 }
 
 a {
   font-family: "Open Sans";
   font-size: 80%;
+  /*text-overflow: ellipsis;*/
+  text-decoration: none;
+  color: #3c485b;
 }
 
 .quote-text {
