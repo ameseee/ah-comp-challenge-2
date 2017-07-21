@@ -130,6 +130,7 @@ li {
   margin-left: 15px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /*CARD*/
