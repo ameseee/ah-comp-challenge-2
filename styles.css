@@ -161,65 +161,67 @@ li {
 }
 
 #flotus {
-  background-image: url(assets/img/flotus.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/flotus.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #amy {
-  background-image: url(assets/img/amy.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/img/amy.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #charlie {
-  background-image: url(assets/img/charlie.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/charlie.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #cj {
-  background-image: url(assets/img/cj.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/cj.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #donna {
-  background-image: url(assets/img/donna.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/donna.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 /*find a better pic*/
 #flotus {
-  background-image: url(assets/img/flotus.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/flotus.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #josh {
-  background-image: url(assets/img/josh.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/img/josh.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #leo {
-  background-image: url(assets/img/leo.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/leo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #potus {
-  background-image: url(assets/img/potus.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/potus.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #sam {
-  background-image: url(assets/img/sam.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/sam.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #toby {
-  background-image: url(assets/img/toby.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/toby.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
