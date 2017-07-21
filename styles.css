@@ -140,6 +140,8 @@ li {
 .top-of-card {
   background-color: red;
   height: 125px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .magnifying-glass-icon {
@@ -147,6 +149,15 @@ li {
   width: auto;
   margin: 10px 0 0 10px;
   display: inline-block;
+}
+
+.top-right-corner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70px;
+  height: 70px;
+  align-items: center;
 }
 
 #flotus {
@@ -248,7 +259,11 @@ a {
   display: inline-block;
   margin-bottom: 6px;
   text-transform: uppercase;
+  color: #fff;
+}
 
+.rating-num {
+  color: #fff;
 }
 
 h3 {
