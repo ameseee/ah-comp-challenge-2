@@ -153,7 +153,47 @@ li {
   margin: 10px 0 0 10px;
   display: inline-block;
 }
+#donna {
+  background-image: url(assets/img/donna.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*find a better pic*/
+#flotus {
+  background-image: url(assets/img/flotus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+#josh {
+  background-image: url(assets/img/josh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#leo {
+  background-image: url(assets/img/leo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#potus {
+  background-image: url(assets/img/potus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sam {
+  background-image: url(assets/img/sam.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#toby {
+  background-image: url(assets/img/toby.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .bottom-of-card {
   padding: 10px;
 }
@@ -164,13 +204,13 @@ a {
   font-family: "Open Sans", sans-serif;
 }
 
-.views,
+.episode,
 .quote,
 .attachment  {
   text-transform: uppercase;
 }
 
-.views-num,
+.episode-num,
 .attachment-num {
   font-size: 30px;
   line-height: 1;
@@ -181,7 +221,7 @@ a {
   margin-bottom: 6px;
 }
 
-.views {
+.episode {
   display: inline-block;
   margin-bottom: 6px;
 }
