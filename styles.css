@@ -153,6 +153,28 @@ li {
   margin: 10px 0 0 10px;
   display: inline-block;
 }
+#flotus {
+  background-image: url(assets/img/flotus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#amy {
+  background-image: url(assets/img/amy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#charlie {
+  background-image: url(assets/img/charlie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cj {
+  background-image: url(assets/img/cj.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #donna {
   background-image: url(assets/img/donna.jpg);
   background-repeat: no-repeat;
@@ -204,13 +226,13 @@ a {
   font-family: "Open Sans", sans-serif;
 }
 
-.episode,
+.rating,
 .quote,
 .attachment  {
   text-transform: uppercase;
 }
 
-.episode-num,
+.rating-num,
 .attachment-num {
   font-size: 30px;
   line-height: 1;
@@ -221,7 +243,7 @@ a {
   margin-bottom: 6px;
 }
 
-.episode {
+.rating {
   display: inline-block;
   margin-bottom: 6px;
 }
