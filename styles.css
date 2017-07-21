@@ -6,18 +6,53 @@
   height: 150px;
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
+  border: 1px solid #fff;
+  background-color: navy;
 }
 
 .top-nav {
   height: 75px;
-  border: 1px solid red;
+  border: 1px solid #fff;
   width: 100%;
+}
+
+.profile-nav {
+  border: 1px solid #fff;
+  float: right;
+  margin: 5px 5px 0 0 ;
+  position: relative;
+  width: 180px;
+  height: 40px;
+}
+
+.profile-icon {
+  position: absolute;
+  top: 8px;
+  height: 22px;
+  width: auto;
+  display: inline-block;
+}
+
+.user-name {
+  position: absolute;
+  left: 25px;
+  display: inline-block;
+  font-size: 80%;
+  color: #fff;
+}
+
+.down-arrow {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  height: 18px;
+  width: auto;
+  display: inline-block;
 }
 
 .bottom-nav {
   height: 75px;
-  border: 1px solid pink;
+  border: 1px solid #fff;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -31,36 +66,58 @@
   display: inline-block;
 }
 
+.h1-container {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  width: 400px;
+  border: 1px solid red;
+}
+
 h1 {
   font-family: "Cardo";
   font-weight: 400;
-  padding-right: 40px;
+  display: inline-block;
+  color: #fff;
 }
 
 .capitol-icon {
-  height: 68px;
+  height: 65px;
   width: auto;
-  margin-left: 0;
+  display: inline-block;
+  margin-right: 30px;
 }
 
 li {
   display: inline-block;
-  border: 1px solid black;
+  border: 1px solid #fff;
   width: 140px;
   text-transform: uppercase;
+  position: relative;
+  height: 40px;
 }
 
-.nav-icon-text {
-  display: inline-block;
-  font-size: 85%;
+.nav-icon {
+  position: absolute;
+  top: 3px;
+  left: 3px;
 }
+.nav-icon-text {
+  position: absolute;
+  top: 3px;
+  left: 40px;
+  display: inline-block;
+  font-size: 80%;
+  color: #fff;
+}
+
 
 #walk-talk {
-
+  margin-left: -30px;
 }
 
 #bartlet-america {
-
+  width: 180px;
 }
 
 /*BOTTOM CONTAINER*/
@@ -71,13 +128,15 @@ li {
 .card-container {
   margin-right: 15px;
   margin-left: 15px;
+  display: flex;
+  justify-content: space-around;
 }
 
 /*CARD*/
 .card {
   border: 1px solid black;
   display: inline-block;
-  width: 225px;
+  width: 23%;
   height: 400px;
   margin-top: 20px;
 }
@@ -90,27 +149,39 @@ li {
 .magnifying-glass-icon {
   height: 42px;
   width: auto;
+  margin: 10px 0 0 10px;
+  display: inline-block;
 }
 
 .bottom-of-card {
   padding: 10px;
 }
 
-h4, p, a {
+h4,
+p,
+a {
   font-family: "Open Sans", sans-serif;
 }
 
-.views, .quote, .attachment  {
+.views,
+.quote,
+.attachment  {
   text-transform: uppercase;
 }
 
-.views-num, .attachment-num {
+.views-num,
+.attachment-num {
   font-size: 30px;
   line-height: 1;
   margin: 0;
 }
 
-.views, .attachment {
+.attachment {
+  margin-bottom: 6px;
+}
+
+.views {
+  display: inline-block;
   margin-bottom: 6px;
 }
 
