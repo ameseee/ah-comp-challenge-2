@@ -140,6 +140,10 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 
   box-shadow: 1.5px 3px 3px 1.5px #566782;
 }
 
+.card11,
+.card12 {
+  visibility: hidden;
+}
 .top-of-card {
   background-color: red;
   height: 125px;
@@ -170,8 +174,6 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 
 
 #flotus {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/flotus.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #flotus:hover {
@@ -180,8 +182,6 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 
 
 #amy {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/img/amy.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   transition: 1s;
 }
 
@@ -191,8 +191,6 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 
 
 #charlie {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/charlie.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   transition-duration: 1s;
 }
 
@@ -202,8 +200,6 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 
 
 #cj {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/cj.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #cj:hover {
@@ -213,8 +209,6 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 
 
 #donna {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/donna.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #donna:hover {
@@ -223,8 +217,6 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 
 
 #josh {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/img/josh.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #josh:hover {
@@ -233,8 +225,6 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 
 
 #leo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/leo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #leo:hover {
@@ -243,8 +233,6 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 
 
 #potus {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/potus.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #potus:hover {
@@ -253,8 +241,6 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 
 
 #sam {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/sam.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #sam:hover {
@@ -263,8 +249,6 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 
 
 #toby {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/toby.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #toby:hover {
