@@ -118,8 +118,13 @@ li {
 }
 
 /*BOTTOM CONTAINER*/
+
+/*
+background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(assets/img/flag.jpg);*/
+
+
 .bottom-container {
-  background-color: grey;
+background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(assets/img/flag.jpg);
 }
 
 .card-container {
