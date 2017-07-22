@@ -119,12 +119,8 @@ li {
 
 /*BOTTOM CONTAINER*/
 
-/*
-background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(assets/img/flag.jpg);*/
-
-
 .bottom-container {
-background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url(assets/img/flag.jpg);
+background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(assets/img/flag.jpg);
 }
 
 .card-container {
@@ -137,10 +133,11 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255,
 
 /*CARD*/
 .card {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   display: inline-block;
   width: 23%;
   margin-top: 20px;
+  box-shadow: 1.5px 3px 3px 1.5px #566782;
 }
 
 .top-of-card {
@@ -173,7 +170,7 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255,
 }
 
 #amy {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/img/amy.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/img/amy.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -234,7 +231,7 @@ background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255,
 
 .bottom-of-card {
   padding: 15px;
-  background-color: #E7E8EB;
+  background-color: #e2e2e2;
 }
 
 .job {
