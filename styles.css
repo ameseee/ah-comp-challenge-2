@@ -12,7 +12,7 @@ header {
   height: 150px;
   display: flex;
   flex-direction: column;
-  background-color: #000633;
+  background-color: #202446;
 }
 
 .top-nav {
@@ -76,10 +76,11 @@ header {
 }
 
 h1 {
-  font-family: "Cardo";
+  font-family: "Lora";
   font-weight: 400;
   display: inline-block;
   color: #E7E8FA;
+  text-transform: uppercase;
 }
 
 .capitol-icon {
@@ -143,9 +144,9 @@ padding-bottom: 40px;
 
 h2 {
   margin: 0;
-  padding: 170px 0 15px 30px;
+  padding: 175px 0 15px 30px;
   font-size: 180%;
-  color: #000633;
+  color: #202446;
 }
 
 /*CARD*/
@@ -327,7 +328,7 @@ a {
 h3 {
   margin: 0;
   font-size: 125%;
-  font-family: "Cardo";
+  font-family: "Lora";
 }
 
 h4 {
@@ -362,5 +363,5 @@ a {
 
 footer {
   height: 75px;
-  background-color: #000633;
+  background-color: #202446;
 }
