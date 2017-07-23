@@ -30,8 +30,8 @@ header {
 
 .profile-icon {
   position: absolute;
-  top: 8px;
-  height: 20px;
+  top: 10px;
+  height: 18px;
   width: auto;
   display: inline-block;
 }
@@ -128,10 +128,42 @@ li {
 
 #walk-talk {
   margin-left: -20px;
+  background-image: url(assets/icons/walk-and-talk.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 22px;
 }
 
 #walk-talk p {
   color: #e2e2e2;
+}
+
+#what-is-next {
+  background-image: url(assets/icons/what-is-next.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 22px;
+}
+
+#what-is-next:hover {
+  background-image: url(assets/icons/what-is-next-hover.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 22px;
+}
+
+#full-lid {
+  background-image: url(assets/icons/full-lid.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 22px;
+}
+
+#full-lid:hover {
+  background-image: url(assets/icons/full-lid-hover.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 22px;
 }
 
 /*BOTTOM CONTAINER*/
