@@ -84,6 +84,7 @@ header {
 }
 
 h1 {
+  font-size: 100%;
   font-weight: 400;
   display: inline-block;
   color: #E7E8FA;
@@ -188,7 +189,6 @@ h2 {
   display: inline-block;
   width: 23%;
   margin-top: 30px;
-  /*margin-bottom: */
   box-shadow: 1.5px 3px 3px 1.5px #566782;
 }
 
@@ -374,11 +374,13 @@ h4 {
 }
 
 a {
-  font-size: 80%;
+  overflow: hidden;
+  text-overflow: clip ellipsis;
+  white-space: initial;
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
-  text-overflow: ellipsis;
+  font-size: 75%;
   text-decoration: none;
   color: #3c485b;
 }
@@ -396,8 +398,6 @@ footer {
 .social-media {
   display: flex;
   justify-content: center;
-  /*align-content: center;*/
-  /*align-items: center;*/
 }
 
 .twitter,
@@ -436,4 +436,122 @@ footer {
 
 .facebook:hover {
   background-image: url(assets/icons/facebook-hover.svg);
+}
+
+
+@media (max-width: 1090px) {
+
+  .card {
+    width: 30%;
+  }
+
+  li {
+    height: 25px;
+    width: 140px;
+  }
+
+  .nav-icon-text {
+    font-size: 90%;
+  }
+
+  .h1-container {
+    width: 350px;
+  }
+
+  h1 {
+    font-size: 90%;
+  }
+
+  .capitol-icon {
+    height: 60px;
+    margin-right: 20px;
+  }
+
+  .profile-nav {
+    width: 170px;
+  }
+
+  .profile-icon {
+    height: 16px;
+  }
+
+  .user-name {
+    left: 25px;
+    font-size: 75%;
+  }
+
+  .down-arrow {
+    right: 20px;
+    height: 14px;
+    width: 14px;
+  }
+
+  .link-div {
+    margin: 20px 0 20px 0;
+  }
+}
+
+@media(max-width: 870px) {
+
+  .card {
+    width: 42.5%;
+  }
+
+  li {
+    height: 23px;
+    width: 120px;
+    /*border: 1px solid yellow;*/
+  }
+
+  .nav-icon-text {
+    font-size: 75%;
+    top: -7px;
+  }
+
+  .h1-container {
+    width: 345px;
+  }
+
+  h1 {
+    font-size: 75%;
+  }
+
+}
+
+
+
+
+@media(max-width: 720px) {
+
+  .card {
+    width: 45%;
+  }
+
+  li {
+    height: 20px;
+    width: 110px;
+  }
+
+  .nav-icon-text {
+    font-size: 70%;
+    top: -7px;
+    left: 26px;
+  }
+
+  .h1-container {
+    width: 280px;
+  }
+
+  h1 {
+    font-size: 70%;
+  }
+
+  .capitol-icon {
+    display: none;
+  }
+
+}
+
+@media (max-width: ???px) {
+  /*once we got one card per row, un-fix header so it scrolls through*/
 }
