@@ -1,6 +1,7 @@
 * {
   line-height: 1;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 /*NAV BAR*/
 header {
@@ -79,45 +80,44 @@ header {
   display: flex;
   justify-content: space-between;
   height: 75px;
-  width: 400px;
+  width: 370px;
 }
 
 h1 {
-  font-family: "Lora";
   font-weight: 400;
   display: inline-block;
   color: #E7E8FA;
   text-transform: uppercase;
+  letter-spacing: .75px;
 }
 
 .capitol-icon {
+  display: inline-block;
   height: 65px;
   width: auto;
-  display: inline-block;
   margin-right: 30px;
 }
 
 li {
+  position: relative;
   display: inline-block;
+  height: 30px;
   width: 170px;
   text-transform: uppercase;
-  position: relative;
-  height: 30px;
-  /*border: 1px solid yellow;*/
 }
 
 .nav-icon {
   position: absolute;
-  top: 3px;
   left: 3px;
+  top: 3px;
   height: 20px;
   width: auto;
 }
 
 .nav-icon-text {
   position: absolute;
-  top: -10px;
   left: 30px;
+  top: -10px;
   display: inline-block;
   color: #a1a1a1;
 }
@@ -129,41 +129,36 @@ li {
 #walk-talk {
   margin-left: -20px;
   background-image: url(assets/icons/walk-and-talk.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 22px;
 }
 
 #walk-talk p {
   color: #e2e2e2;
 }
 
-#what-is-next {
-  background-image: url(assets/icons/what-is-next.svg);
+#walk-talk,
+#what-is-next,
+#what-is-next:hover,
+#full-lid,
+#full-lid:hover {
   background-size: contain;
   background-repeat: no-repeat;
   height: 22px;
+}
+
+#what-is-next {
+  background-image: url(assets/icons/what-is-next.svg);
 }
 
 #what-is-next:hover {
   background-image: url(assets/icons/what-is-next-hover.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 22px;
 }
 
 #full-lid {
   background-image: url(assets/icons/full-lid.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 22px;
 }
 
 #full-lid:hover {
   background-image: url(assets/icons/full-lid-hover.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 22px;
 }
 
 /*BOTTOM CONTAINER*/
@@ -323,13 +318,6 @@ h2 {
   color: #52627c;
 }
 
-h2,
-h4,
-p,
-a {
-  font-family: "Open Sans", sans-serif;
-}
-
 .quote {
   text-transform: uppercase;
   font-size: 70%;
@@ -368,7 +356,6 @@ a {
 h3 {
   margin: 0;
   font-size: 125%;
-  font-family: "Lora";
 }
 
 h4 {
@@ -387,7 +374,6 @@ h4 {
 }
 
 a {
-  font-family: "Open Sans";
   font-size: 80%;
   overflow-wrap: break-word;
   word-wrap: break-word;
