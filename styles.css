@@ -84,7 +84,7 @@ header {
 }
 
 h1 {
-  font-size: 100%;
+  font-size: 200%;
   font-weight: 400;
   display: inline-block;
   color: #E7E8FA;
@@ -455,11 +455,11 @@ footer {
   }
 
   .h1-container {
-    width: 350px;
+    width: 330px;
   }
 
   h1 {
-    font-size: 90%;
+    font-size: 180%;
   }
 
   .capitol-icon {
@@ -494,7 +494,7 @@ footer {
 @media(max-width: 870px) {
 
   .card {
-    width: 42.5%;
+    width: 41%;
   }
 
   li {
@@ -509,11 +509,11 @@ footer {
   }
 
   .h1-container {
-    width: 345px;
+    width: 300px;
   }
 
   h1 {
-    font-size: 75%;
+    font-size: 150%;
   }
 
 }
@@ -539,11 +539,13 @@ footer {
   }
 
   .h1-container {
-    width: 280px;
+    width: 210px;
+    height: 50px;
+    /*border: 1px solid yellow;*/
   }
 
   h1 {
-    font-size: 70%;
+    font-size: 150%;
   }
 
   .capitol-icon {
