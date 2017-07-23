@@ -118,7 +118,7 @@ li {
 .nav-icon-text {
   position: absolute;
   left: 30px;
-  top: -10px;
+  top: -12px;
   display: inline-block;
   color: #a1a1a1;
 }
@@ -452,19 +452,15 @@ footer {
 
   .nav-icon-text {
     font-size: 90%;
+    top: -10px;
   }
 
   .h1-container {
-    width: 330px;
+    width: 340px;
   }
 
   h1 {
     font-size: 180%;
-  }
-
-  .capitol-icon {
-    height: 60px;
-    margin-right: 20px;
   }
 
   .profile-nav {
@@ -489,18 +485,29 @@ footer {
   .link-div {
     margin: 20px 0 20px 0;
   }
+
+  .top-of-card {
+    height: 130px;
+  }
 }
 
 @media(max-width: 870px) {
+
+  .profile-nav {
+    width: 165px;
+  }
+
+  .user-name {
+    top: 1px;
+  }
 
   .card {
     width: 41%;
   }
 
   li {
-    height: 23px;
+    height: 22px;
     width: 120px;
-    /*border: 1px solid yellow;*/
   }
 
   .nav-icon-text {
@@ -509,15 +516,22 @@ footer {
   }
 
   .h1-container {
-    width: 300px;
+    width: 295px;
+  }
+
+  .capitol-icon {
+    height: 60px;
+    margin-right: 20px;
   }
 
   h1 {
-    font-size: 150%;
+    font-size: 152%;
   }
 
+  .top-of-card {
+    height: 150px;
+  }
 }
-
 
 
 
@@ -528,7 +542,7 @@ footer {
   }
 
   li {
-    height: 20px;
+    height: 18px;
     width: 110px;
   }
 
@@ -541,7 +555,6 @@ footer {
   .h1-container {
     width: 210px;
     height: 50px;
-    /*border: 1px solid yellow;*/
   }
 
   h1 {
@@ -554,6 +567,11 @@ footer {
 
 }
 
-@media (max-width: ???px) {
+@media (max-width: 585px) {
   /*once we got one card per row, un-fix header so it scrolls through*/
+
+/*unfix header*/
+/*west wing on top, middle*/
+
+
 }
