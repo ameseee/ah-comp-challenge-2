@@ -62,18 +62,12 @@ header {
 }
 
 .bottom-nav {
-  height: 75px;
+  height: 65px;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.nav-icon {
-  height: 36px;
-  width: auto;
-  display: inline-block;
 }
 
 .h1-container {
@@ -107,14 +101,6 @@ li {
   text-transform: uppercase;
 }
 
-.nav-icon {
-  position: absolute;
-  left: 3px;
-  top: 3px;
-  height: 20px;
-  width: auto;
-}
-
 .nav-icon-text {
   position: absolute;
   left: 30px;
@@ -127,15 +113,6 @@ li {
   color: #e2e2e2;
 }
 
-#walk-talk {
-  margin-left: -20px;
-  background-image: url(assets/icons/walk-and-talk.svg);
-}
-
-#walk-talk p {
-  color: #e2e2e2;
-}
-
 #walk-talk,
 #what-is-next,
 #what-is-next:hover,
@@ -144,6 +121,15 @@ li {
   background-size: contain;
   background-repeat: no-repeat;
   height: 22px;
+}
+
+#walk-talk {
+  margin-left: -20px;
+  background-image: url(assets/icons/walk-and-talk.svg);
+}
+
+#walk-talk p {
+  color: #e2e2e2;
 }
 
 #what-is-next {
@@ -411,7 +397,7 @@ footer {
   height: 35px;
   width: 35px;
   display: inline-block;
-  margin: 20px 15px 10px 15px;
+  margin: 25px 15px 10px 15px;
 }
 
 .twitter {
@@ -533,10 +519,11 @@ footer {
   }
 }
 
-
-
 @media(max-width: 720px) {
 
+  .card-container {
+    margin-top: -5px;
+  }
   .card {
     width: 45%;
   }
@@ -553,25 +540,70 @@ footer {
   }
 
   .h1-container {
-    width: 210px;
+    width: 235px;
     height: 50px;
   }
 
   h1 {
-    font-size: 150%;
+    font-size: 165%;
   }
 
   .capitol-icon {
     display: none;
   }
 
+  h2 {
+    font-size: 160%;
+  }
 }
 
 @media (max-width: 585px) {
-  /*once we got one card per row, un-fix header so it scrolls through*/
 
-/*unfix header*/
-/*west wing on top, middle*/
+  header {
+    position: static;
+  }
+
+  .bottom-nav {
+    flex-direction: column-reverse;
+  }
+
+  .h1-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 175%;
+  }
+
+  h2 {
+    padding-top: 20px;
+    font-size: 150%;
+  }
+
+  .nav-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  .top-nav {
+    height: 40px;
+  }
+
+  .bottom-nav {
+    height: 110px;
+  }
 
 
+
+  .card {
+    width: 75%;
+  }
+
+  .top-of-card {
+    height: 180px;
+  }
 }
