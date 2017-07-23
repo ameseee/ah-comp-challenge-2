@@ -183,7 +183,7 @@ padding-bottom: 40px;
 
 h2 {
   margin: 0;
-  padding: 175px 0 15px 30px;
+  padding: 175px 0 0 30px;
   font-size: 180%;
   color: #202446;
 }
@@ -192,7 +192,8 @@ h2 {
 .card {
   display: inline-block;
   width: 23%;
-  margin-top: 20px;
+  margin-top: 30px;
+  /*margin-bottom: */
   box-shadow: 1.5px 3px 3px 1.5px #566782;
 }
 
@@ -400,7 +401,53 @@ a {
   margin: 6px 0 20px 0;
 }
 
+/*FOOTER*/
 footer {
-  height: 75px;
+  height: 85px;
   background-color: #202446;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  /*align-content: center;*/
+  /*align-items: center;*/
+}
+
+.twitter,
+.twitter:hover,
+.google-plus,
+.google-plus-hover,
+.facebook,
+.facebook:hover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  margin: 20px 15px 10px 15px;
+}
+
+.twitter {
+  background-image: url(assets/icons/twitter-icon.svg);
+}
+
+.twitter:hover {
+  background-image: url(assets/icons/twitter-hover.svg);
+}
+
+.google-plus {
+  background-image: url(assets/icons/google-plus-icon.svg);
+}
+
+.google-plus:hover {
+  background-image: url(assets/icons/google-plus-hover.svg);
+}
+
+.facebook {
+  background-image: url(assets/icons/facebook-icon.svg);
+}
+
+.facebook:hover {
+  background-image: url(assets/icons/facebook-hover.svg);
 }
