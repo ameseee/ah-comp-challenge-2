@@ -650,3 +650,92 @@ footer {
   }
 
 }
+
+@media (min-width: 1300px) {
+
+  .top-of-card {
+    height: 175px;
+  }
+
+  .name {
+    font-size: 130%;
+    margin-bottom: 5px;
+  }
+
+  .job{
+    font-size: 80%;
+  }
+
+  h4 {
+  font-size: 100%;
+  }
+
+  .quote-text {
+    font-size: 120%;
+  }
+
+  .rating-num,
+  .cookies-num {
+    font-size: 200%;
+  }
+}
+
+
+@media (min-width: 1600px) {
+
+  .top-of-card {
+    height: 190px;
+  }
+
+  .name {
+    font-size: 150%;
+
+  }
+
+  .job {
+    font-size: 90%;
+  }
+
+  h4 {
+    font-size: 110%;
+    margin-bottom: 8px;
+  }
+
+  a {
+    font-size: 95%;
+  }
+  .quote {
+    margin-top: 10px;
+  }
+
+  .quote-text {
+    font-size: 135%;
+    margin-bottom: 25px;
+  }
+
+  .rating-num,
+  .cookies-num {
+    font-size: 220%;
+  }
+
+}
+
+@media (min-width: 1800px) {
+
+  .top-of-card {
+    height: 250px;
+  }
+
+  .h1-container {
+    width: 400px;
+  }
+
+  h1 {
+    font-size: 220%;
+  }
+
+  .top-right-corner {
+      margin-right: 2%;
+      margin-top: 2%;
+  }
+}
